@@ -9,7 +9,7 @@ buttonsArray.forEach(btn=>{
 
 btn.addEventListener('click',(e)=>{
     console.log(e.target.innerHTML, e.target.innerHTML.trim().length);
-    if ( e.target.innerHTML =="DEL"){
+    if ( e.target.innerHTML.trim() ==="DEL"){
 
         if(string.length>0){
             string = string.substring(0,string.
